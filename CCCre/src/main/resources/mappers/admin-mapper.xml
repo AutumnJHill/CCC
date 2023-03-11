@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  <mapper namespace="adminMapper">
+  	
+<!--   	<resultMap type="admin" id="adminResultSet"> -->
+<!-- 		<result column="A_NO" property="aNo" /> -->
+<!-- 		<result column="AG_NO" property="aGno" /> -->
+<!-- 		<result column="A_ID" property="aId" /> -->
+<!-- 		<result column="A_PWD" property="aPwd" /> -->
+<!-- 		<result column="A_NAME" property="aName" /> -->
+<!-- 		<result column="A_RESIDENT_NO" property="aResidentNo" /> -->
+<!-- 		<result column="A_EMAIL" property="aEmail" /> -->
+<!-- 		<result column="A_PHONE" property="aPhone" /> -->
+<!-- 		<result column="A_HIRE_DATE" property="aHireDate" /> -->
+<!-- 		<result column="A_MODIFY_DATE" property="aModifyDate" /> -->
+<!-- 		<result column="A_QUIT_DATE" property="aQuitDate" /> -->
+<!-- 		<result column="A_STATUS" property="aStatus" /> -->
+<!-- 	</resultMap> -->
+	
+	
+<!-- 	<resultMap type="adminAttach" id="atResultSet"> -->
+<!-- 		<result column="AD_NO" property="adminNo" /> -->
+<!-- 		<result column="A_NO" property="aNo" /> -->
+<!-- 		<result column="AD_ORIGIN_NAME" property="adminOriginName" /> -->
+<!-- 		<result column="AD_CHANGE_NAME" property="adminChangeName" /> -->
+<!-- 		<result column="AD_CHANGE_FILE" property="adminChangeFile" /> -->
+<!-- 		<result column="AD_LEVEL" property="adminLevel" /> -->
+<!-- 		<result column="AD_CREATE_DATE" property="adminCreateDate" /> -->
+<!-- 		<result column="AD_STATUS" property="adminStatus" /> -->
+<!-- 	</resultMap> -->
+	
+	
+		<resultMap type="question" id="questionResult">
+  		<result column="Q_NO" property="questionNo"/>
+  		<result column="Q_LEVEL" property="questionLevel"/>
+  		<result column="M_NAME" property="questionWriter"/>
+  		<result column="Q_TYPE" property="questionTypeNo"/>
+  		<result column="Q_TITLE" property="questionTitle"/>
+  		<result column="Q_CONTENT" property="questionContent"/>
+  		<result column="Q_RESPONSE" property="questionResponse"/>
+  		<result column="Q_COUNT" property="questionCount"/>
+  		<result column="Q_CREATE_DATE" property="questionCreateDate"/>
+  		<result column="Q_UPDATE_DATE" property="questionUpdateDate"/>
+  		<result column="Q_DELETE_DATE" property="questionDeleteDate"/>
+  		<result column="Q_STATUS" property="questionStatus"/>
+  		</resultMap>
+  		
+		<resultMap type="ordercount" id="orderCountResult">
+		  <result column="ORDERCOUNT" property="orderCount"/>
+		  <result column="MONTH" property="month"/>
+		</resultMap>
+  		
+		<!--관리자 차트 -->
+		<select id="dataSelect" resultMap="orderCountResult">
+			SELECT * from 
+			TB_ORDER_COUNT
+		</select>
+	  		
+		<!-- 총 회원수 -->
+		<select id="totalMember" resultType="_int">
+			select count(*)
+			from tb_member
+		</select>
+		
+		<!-- 누적 주문수량 -->
+		<select id="totalOrderCount" resultType="_int">
+			SELECT SUM(QUANTITY)
+			FROM TB_ORDER_DETAIL
+		</select>
+	
+  </mapper>
