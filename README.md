@@ -12,25 +12,16 @@
 
 
 내 캐릭터 추가 수정 삭제
-![image](https://user-images.githubusercontent.com/126685949/224484047-e3df4107-f171-41b4-bbbe-c6608961f304.png)
+![image](https://user-images.githubusercontent.com/126685949/224484238-3b75f7cc-a2d4-4ab9-a95f-63bad92662ba.png)
 
 
 
 위시리스트
-![image](https://user-images.githubusercontent.com/126685949/224483629-d33041a9-7e92-4f37-be19-8319a2946647.png)
+![image](https://user-images.githubusercontent.com/126685949/224484217-c6e87672-eb01-4c47-8a3f-c0ca4a1f8291.png)
 
 
 
 장바구니
-![image](https://user-images.githubusercontent.com/126685949/224484171-946450ab-f92b-487a-ac25-63e7d256d2da.png)
-
-
-
-
-
-
-
-
-
+![image](https://user-images.githubusercontent.com/126685949/224484206-41886c0b-c084-4c92-a691-d4b8b8271a95.png)
 
 
