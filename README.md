@@ -6,10 +6,31 @@
 
 
 
-
-
 기간별 주문내역
-![image](https://user-images.githubusercontent.com/126685949/224482792-9a89cd71-e369-4a2a-9b20-87e4c89b4fce.png)
+![image](https://user-images.githubusercontent.com/126685949/224482841-cd1cccb0-bef1-44b8-8d94-d4d2f56a90a9.png)
+
+
+
+내 캐릭터 추가 수정 삭제
+![image](https://user-images.githubusercontent.com/126685949/224483597-1b984b11-aa0b-43fe-bc06-bf19b3499d5a.png)
+
+
+
+위시리스트
+![image](https://user-images.githubusercontent.com/126685949/224483629-d33041a9-7e92-4f37-be19-8319a2946647.png)
+
+
+
+장바구니
+![image](https://user-images.githubusercontent.com/126685949/224483776-95db29fe-06f9-440c-889b-7cfbd01a5b5a.png)
+
+
+
+
+
+
+
+
 
 
 
