@@ -17,13 +17,12 @@
 
 
 위시리스트
-
 ![image](https://user-images.githubusercontent.com/126685949/224483629-d33041a9-7e92-4f37-be19-8319a2946647.png)
 
 
 
 장바구니
-![image](https://user-images.githubusercontent.com/126685949/224483879-09e52071-1363-41ea-aef5-2868826709dc.png)
+![image](https://user-images.githubusercontent.com/126685949/224484171-946450ab-f92b-487a-ac25-63e7d256d2da.png)
 
 
 
