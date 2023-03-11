@@ -21,6 +21,8 @@ public class AdminController {
 	@Autowired
 	AdminService adminService;
 	
+	//
+	
     //리스트 조회 + 회원수
 	@RequestMapping("admin.ad")
 	public String memberList(Model model) {
