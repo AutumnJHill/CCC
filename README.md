@@ -10,12 +10,6 @@
 ![image](https://user-images.githubusercontent.com/126685949/224482841-cd1cccb0-bef1-44b8-8d94-d4d2f56a90a9.png)
 
 
-
-내 캐릭터 추가 수정 삭제
-![image](https://user-images.githubusercontent.com/126685949/224484238-3b75f7cc-a2d4-4ab9-a95f-63bad92662ba.png)
-
-
-
 위시리스트
 ![image](https://user-images.githubusercontent.com/126685949/224484217-c6e87672-eb01-4c47-8a3f-c0ca4a1f8291.png)
 
